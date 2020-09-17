@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">IoTApp</string>
+    <string name="pote">Potentiometer</string>
+    <string name="temp">Temperature</string>
+    <string name="hall">SensorHall</string>
+    <string name="communicate">Communicate KL46</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="dev">Developed by Martin and Santarelli</string>
+    <string name="iot_app">IoT App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_pote">Voltage Data</string>
+    <string name="title_acc">Acceleration Data</string>
+    <string name="data" />
+    <string name="title_hall">Sensor Hall Data</string>
+    <string name="temperature_data">Temperature Data</string>
+    <string name="todo">TODO</string>
+    <string name="hall_data">The Sensor is</string>
+    <string name="Sw1_data">The Switch 1 is</string>
+    <string name="Sw3_data">The Switch 3 is</string>
+    <string name="titleHall">Sensor Hall Data</string>
+    <string name="dataTemp">Loading...</string>
+    <string name="tempe_data">Temperature Data</string>
+    <string name="ipname">IP</string>
+    <string name="portname">Port</string>
+    <string name="buttonok">OK</string>
+    <string name="button" >OK</string>
+    <string name="password" >Password</string>
+    <string name="name" >User</string>
+    <string name="MQTTSERVER">MQTT Server</string>
+    <string name="title_bright">Brightness Data</string>
+    <string name="titleSw">Switches Data</string>
+    <string name="tvattemps">number of attemps remaining</string>
+
+
+</resources>

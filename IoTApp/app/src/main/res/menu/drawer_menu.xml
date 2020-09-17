@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings"
+            android:title="MQTT Settings" />
+        <item
+            android:id="@+id/nav_pote"
+            android:icon="@drawable/ic_pote"
+            android:title="@string/pote" />
+        <item
+            android:id="@+id/nav_temp"
+            android:icon="@drawable/ic_temp"
+            android:title="@string/temp" />
+
+        <item
+            android:id="@+id/nav_hall"
+            android:icon="@drawable/ic_hall"
+            android:title="@string/hall" />
+        <item
+            android:id="@+id/nav_acc"
+            android:icon="@drawable/ic_acc"
+            android:title="Acceleration" />
+        <item
+            android:id="@+id/nav_bright"
+            android:icon="@drawable/ic_bright"
+            android:title="Brightness" />
+        <item
+            android:id="@+id/nav_button"
+            android:icon="@drawable/ic_button"
+            android:title="Buttons" />
+
+    </group>
+
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_start"
+                android:icon="@drawable/ic_start"
+                android:title="@string/start" />
+            <item
+                android:id="@+id/nav_stop"
+                android:icon="@drawable/ic_stop"
+                android:title="@string/stop" />
+
+        </menu>
+    </item>
+
+</menu>
