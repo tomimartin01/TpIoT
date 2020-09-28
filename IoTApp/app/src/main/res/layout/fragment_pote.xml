@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="126dp"
         android:text="@string/data" />
 
     <com.github.mikephil.charting.charts.LineChart
@@ -27,7 +27,7 @@
         android:layout_height="344dp"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="115dp" >
+        android:layout_marginBottom="211dp">
 
     </com.github.mikephil.charting.charts.LineChart>
 

@@ -32,6 +32,12 @@
     <string name="title_bright">Brightness Data</string>
     <string name="titleSw">Switches Data</string>
     <string name="tvattemps">number of attemps remaining</string>
+    <string name="startbtn">START</string>
+    <string name="stopbtn">STOP</string>
+    <string name="buttons">Buttons</string>
+    <string name="brightness">Brightness</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="mqtt_settings">MQTT Settings</string>
 
 
 </resources>

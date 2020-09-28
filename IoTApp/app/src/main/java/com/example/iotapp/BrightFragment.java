@@ -34,7 +34,7 @@ public class BrightFragment extends Fragment {
 
         if(bright_ini!= null){
             bright_ini = getActivity().getIntent().getStringExtra("Bright_Sensor");
-            dataReceivedBright.setText("VALUE : "+ bright_ini.toString() );
+            dataReceivedBright.setText("Bright : "+ bright_ini.toString() );
             mChart.addEntry(Float.parseFloat(bright_ini.toString()));
         }
 
@@ -57,7 +57,7 @@ public class BrightFragment extends Fragment {
             String bright_sensor = i.getStringExtra("Bright_Sensor");
 
             if(bright_sensor != null) {
-                dataReceivedBright.setText("VALUE : "+ bright_sensor.toString() );
+                dataReceivedBright.setText("Bright : "+ bright_sensor.toString() );
                 mChart.addEntry(Float.parseFloat(bright_sensor.toString()));
             }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@android:color/holo_green_light"
+
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <EditText
@@ -63,6 +63,26 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="393dp"
         android:text="@string/button"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="@string/startbtn"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="@string/stopbtn"
         android:textSize="20sp" />
 
     <TextView

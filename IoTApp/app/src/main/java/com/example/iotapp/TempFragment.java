@@ -36,8 +36,8 @@ public class TempFragment extends Fragment {
 
         if(temp_sensor_ini!= null){
             temp_sensor_ini = getActivity().getIntent().getStringExtra("Temp_Sensor");
-            dataReceivedTemp.setText("VALUE : "+ temp_sensor_ini.toString() +" V ");
-            mChart.addEntry(Float.parseFloat(temp_sensor_ini.toString()));
+            dataReceivedTemp.setText("Temperature: "+ temp_sensor_ini.toString() +" ºmC ");
+            mChart.addEntry(Float.parseFloat(temp_sensor_ini));
         }
         LocalBroadcastManager.getInstance(getActivity()).registerReceiver(listener,
                 new IntentFilter("Temp"));
@@ -59,7 +59,7 @@ public class TempFragment extends Fragment {
             String temp_sensor = i.getStringExtra("Temp_Sensor");
 
             if(temp_sensor != null) {
-                dataReceivedTemp.setText("TEMPERATURE : "+ temp_sensor.toString() +" ºC ");
+                dataReceivedTemp.setText("Temperature: "+ temp_sensor.toString() +" ºmC ");
                 mChart.addEntry(Float.parseFloat(temp_sensor.toString()));
             }
 

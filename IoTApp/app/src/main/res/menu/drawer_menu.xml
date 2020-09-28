@@ -8,7 +8,7 @@
         <item
             android:id="@+id/nav_setting"
             android:icon="@drawable/ic_settings"
-            android:title="MQTT Settings" />
+            android:title="@string/mqtt_settings" />
         <item
             android:id="@+id/nav_pote"
             android:icon="@drawable/ic_pote"
@@ -25,31 +25,17 @@
         <item
             android:id="@+id/nav_acc"
             android:icon="@drawable/ic_acc"
-            android:title="Acceleration" />
+            android:title="@string/acceleration" />
         <item
             android:id="@+id/nav_bright"
             android:icon="@drawable/ic_bright"
-            android:title="Brightness" />
+            android:title="@string/brightness" />
         <item
             android:id="@+id/nav_button"
             android:icon="@drawable/ic_button"
-            android:title="Buttons" />
+            android:title="@string/buttons" />
 
     </group>
 
-
-    <item android:title="@string/communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_start"
-                android:icon="@drawable/ic_start"
-                android:title="@string/start" />
-            <item
-                android:id="@+id/nav_stop"
-                android:icon="@drawable/ic_stop"
-                android:title="@string/stop" />
-
-        </menu>
-    </item>
 
 </menu>

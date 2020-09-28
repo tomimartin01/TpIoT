@@ -21,12 +21,13 @@ import com.github.mikephil.charting.charts.LineChart;
 
 public class PoteFragment extends Fragment  {
 
-    TextView dataReceivedPote;
-    CHARThelper mChart;
-    LineChart chart;
-    View view;
-    String pote_sensor_ini;
+    private TextView dataReceivedPote;
+    private CHARThelper mChart;
+    private LineChart chart;
+    private View view;
+    private String pote_sensor_ini;
 
+    @SuppressLint("SetTextI18n")
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -38,7 +39,7 @@ public class PoteFragment extends Fragment  {
 
         if(pote_sensor_ini!= null){
             pote_sensor_ini = getActivity().getIntent().getStringExtra("Pote_Sensor");
-            dataReceivedPote.setText("VALUE : "+ pote_sensor_ini.toString() +" V ");
+            dataReceivedPote.setText("Voltage: "+ pote_sensor_ini +" V ");
             mChart.addEntry(Float.parseFloat(pote_sensor_ini.toString()));
         }
 
@@ -66,8 +67,8 @@ public class PoteFragment extends Fragment  {
             String pote_sensor = i.getStringExtra("Pote_Sensor");
 
             if(pote_sensor != null) {
-                dataReceivedPote.setText("VALUE : "+ pote_sensor.toString() +" V ");
-                mChart.addEntry(Float.parseFloat(pote_sensor.toString()));
+                dataReceivedPote.setText("Voltage: "+ pote_sensor +" V ");
+                mChart.addEntry(Float.parseFloat(pote_sensor));
             }
 
         }

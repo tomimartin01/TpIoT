@@ -35,7 +35,7 @@ public class AccFragment extends Fragment {
 
         if(acc_ini!= null){
             acc_ini = getActivity().getIntent().getStringExtra("Acc_Sensor");
-            dataReceivedAcc.setText("VALUE : "+ acc_ini.toString() +" G ");
+            dataReceivedAcc.setText("Acceleration: "+ acc_ini.toString() +" G ");
             mChart.addEntry(Float.parseFloat(acc_ini.toString()));
         }
 
@@ -58,7 +58,7 @@ public class AccFragment extends Fragment {
             String acc_sensor = i.getStringExtra("Acc_Sensor");
 
             if(acc_sensor != null) {
-                dataReceivedAcc.setText("VALUE : "+ acc_sensor.toString() +" G ");
+                dataReceivedAcc.setText("Acceleration: "+ acc_sensor.toString() +" G ");
                 mChart.addEntry(Float.parseFloat(acc_sensor.toString()));
             }
 
